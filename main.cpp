@@ -82,7 +82,6 @@ Tabuleiro resultado(Tabuleiro tabuleiro, Acao acao)
     {
         tabuleiro[acao.first][acao.second] = jogadorAtual(tabuleiro);
     }
-    imprimirTabuleiro(tabuleiro);
     return tabuleiro;
 }
 
@@ -194,7 +193,7 @@ int main()
     cout << "[Profundidade]: ";
     cin >> depth;
     
-    while (depth < 0 || depth >= 7)
+    while (depth <= 0 || depth >= 7)
     {
         cout << "Escolha profundidade entre 1 e 6:";
         cin >> depth;
