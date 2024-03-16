@@ -19,7 +19,7 @@ Este projeto implementa uma versão do jogo da velha em C++, onde você pode jog
 
 1. Clone o repositório:
   ```
-  git clone https://github.com/gabrielsizilio/jogo-da-velha
+  git https://github.com/gabrielsizilio/jogo-da-velha-minimax
   ```
 1. Compile o código-fonte ``main.cpp`` utilizando um compilador C++.
 2. Execute o programa resultante.
